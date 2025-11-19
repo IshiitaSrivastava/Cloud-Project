@@ -16,7 +16,7 @@ Vote once per election
 
 View real-time results
 
-🛠 Admin Features
+ Admin Features
 
 Create & manage elections
 
@@ -44,27 +44,3 @@ Azure Web App
 
 Render / Railway (Free)
 
-cloud-voting-system/
-│── README.md
-│── LICENSE
-│── docker-compose.yml
-│── Dockerfile
-│── .env.example
-│── init_db.py
-│
-├── backend/
-│   ├── app.py
-│   ├── routes.py
-│   ├── models.py
-│   ├── auth.py
-│   ├── database.py
-│   ├── config.py
-│   └── requirements.txt
-│
-├── frontend/
-│   ├── index.html
-│   ├── app.js
-│   └── styles.css
-│
-└── tests/
-    └── test_basic.py
