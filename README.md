@@ -1,45 +1,45 @@
-Cloud-Based Voting System
+<h1 align="center">🌐 Cloud-Based Voting System</h1>
+<p align="center"> A secure, user-friendly and cloud-deployable online voting system built with <b>Flask</b>, <b>SQLite</b>, and <b>Docker</b>. <br> Ideal for Cloud Computing, Web Development, and Software Engineering projects. </p>
+✨ Overview
 
-A secure, lightweight, and cloud-ready online voting system built with Flask, SQLite, and Docker.
-This project is ideal for Cloud Computing, Web Development, or Software Engineering courses.
+This project allows authenticated users to securely cast votes in online elections, while administrators can manage elections and monitor audit logs.
+It is fully containerized with Docker and deployable on any cloud platform.
 
-🌟 Features
-👤 User Features
+🚀 Key Features
+👥 User Features
 
-Register & login
+User Registration & Login
 
 JWT-based secure authentication
 
 Vote once per election
 
-View live election results
+View real-time results
 
 🛠 Admin Features
 
-Create new elections
+Create & manage elections
 
-Add multiple voting options
+Add multiple options
 
-View audit logs (block-linked for tamper detection)
+Access audit log (tamper-evident hash chain)
 
 🔐 Security
 
-Password hashing (PBKDF2)
+PBKDF2 password hashing
 
-JWT authentication
+JWT authentication system
 
-Hash-linked audit chain
+Blockchain-style audit trail
 
 ☁️ Cloud Ready
 
-Deployable on:
+Works on:
 
-AWS
+AWS EC2 / ECS / Fargate
 
 Google Cloud Run
 
-Azure
+Azure Web App
 
-Docker-supported platforms
-
-Render / Railway (free)
+Render / Railway (Free)
